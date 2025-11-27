@@ -40,7 +40,7 @@ export default defineConfig({
               text: "grid生成器",
               link: "https://cssgrid-generator.netlify.app/",
             },
-            { text: "蓝海SVN", link: "https://lanhaifabu.com/" },
+            { text: "蓝海Vpn", link: "https://lanhaifabu.com/" },
             {
               text: "风鸟-企查查",
               link: "https://riskbird.com/?inviteCode=82AE24F9CDA1C3C8",
