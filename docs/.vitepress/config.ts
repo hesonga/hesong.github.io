@@ -1,73 +1,88 @@
 import { defineConfig } from "vitepress";
 export default defineConfig({
-  title: "知否技术",
+  title: "hs的博客",
   // 部署基础路径
   // 如果仓库名是 username.github.io，设置为 '/'
   // 如果仓库名是其他名字（如 zhifou-vitepress-doc），设置为 '/仓库名/'
   // 根据实际访问地址，设置为 '/hesong.github.io/'
-  base: '/hesong.github.io/',
+  base: "/hesong.github.io/",
   // 主体配置
   themeConfig: {
-    logo: "../assets/icons/favicon.ico",
+    // logo: "../assets/icons/favicon.ico",
     // 左侧菜单栏
     sidebar: {
       "/": [
         // 匹配首页路径
         {
-          text: "指南", // 分组标题
+          text: "官方文档", // 分组标题
           collapsible: true, // 可折叠
           items: [
-            { text: "什么是 VitePress？", link: "/guide/introduce/intro" },
-            { text: "快速开始", link: "/guide/introduce/deploy" },
-            { text: "markdown 扩展", link: "/guide/write/markdown" },
-            { text: "源处理", link: "/guide/write/asset-handling" },
+            { text: "vue文档", link: "/vue/introduce/intro" },
+            { text: "PC-UI组件", link: "/vue/introduce/deploy" },
+            { text: "UNI-APP组件", link: "/vue/write/markdown" },
           ],
         },
         {
-          text: "参考", // 分组标题
+          text: "网络工具", // 分组标题
           collapsible: true, // 可折叠
           items: [
-            { text: "主题", link: "/reference/theme" },
-            { text: "导航栏", link: "/reference/nav" },
+            {
+              text: "SVG转DataURL",
+              link: "https://www.fengjs.com/tools/svg2path.html",
+            },
+            { text: "图片压缩", link: "https://tinypng.com/" },
+            { text: "base64编码解码", link: "https://base64.us/" },
+            {
+              text: "gif压缩",
+              link: "https://tools.kalvinbg.cn/image/gifcompress",
+            },
+            {
+              text: "grid生成器",
+              link: "https://cssgrid-generator.netlify.app/",
+            },
+            { text: "蓝海SVN", link: "https://lanhaifabu.com/" },
+            {
+              text: "风鸟-企查查",
+              link: "https://riskbird.com/?inviteCode=82AE24F9CDA1C3C8",
+            },
           ],
         },
-      ],
-      "/guide/": [
-        // 匹配/guide/路径
         {
-          text: "简介", // 分组标题
+          text: "js & ts & 博客", // 分组标题
           collapsible: true, // 可折叠
           items: [
-            { text: "什么是 VitePress？", link: "/guide/introduce/intro" },
-            { text: "快速开始", link: "/guide/introduce/deploy" },
+            { text: "js", link: "/reference/js" },
+            { text: "ts", link: "/reference/ts" },
+            { text: "vue", link: "/reference/vue" },
+            { text: "css", link: "/reference/css" },
+            { text: "博客", link: "/reference/bk" },
           ],
         },
         {
-          text: "写作", // 分组标题
+          text: "App上架", // 分组标题
           collapsible: true, // 可折叠
           items: [
-            { text: "markdown 扩展", link: "/guide/write/markdown" },
-            { text: "源处理", link: "/guide/write/asset-handling" },
-          ],
-        },
-      ],
-      "/reference/": [
-        // 匹配/reference/路径
-        {
-          text: "参考", // 分组标题
-          collapsible: true, // 可折叠
-          items: [
-            { text: "主题", link: "/reference/theme" },
-            { text: "导航栏", link: "/reference/nav" },
+            { text: "应用宝", link: "https://app.open.qq.com/p/home" },
+            { text: "vivo", link: "https://id.vivo.com.cn" },
+            {
+              text: "oppo",
+              link: "https://open.oppomobile.com/public/login/login_page.html",
+            },
+            {
+              text: "华为",
+              link: "https://id1.cloud.huawei.com/CAS/portal/loginAuth.html",
+            },
+            {
+              text: "Apple Developer",
+              link: "https://idmsa.apple.com/IDMSWebAuth/signin",
+            },
+            {
+              text: "fir.im",
+              link: "https://account.betaqr.com.cn/signin",
+            },
           ],
         },
       ],
     },
-    // 顶部菜单栏
-    nav: [
-      { text: "指南", link: "/guide/introduce/intro", activeMatch: "/guide/" },
-      { text: "参考", link: "/reference/theme", activeMatch: "/reference/" },
-      { text: "百度", link: "https://www.baidu.com/" },
-    ],
   },
 });
