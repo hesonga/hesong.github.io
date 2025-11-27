@@ -4,8 +4,7 @@ export default defineConfig({
   // 部署基础路径
   // 如果仓库名是 username.github.io，设置为 '/'
   // 如果仓库名是其他名字（如 zhifou-vitepress-doc），设置为 '/仓库名/'
-  // 例如：base: '/zhifou-vitepress-doc/',
-  base: '/',
+  base: '/zhifou-vitepress-doc/',
   // 主体配置
   themeConfig: {
     logo: "../assets/icons/favicon.ico",
