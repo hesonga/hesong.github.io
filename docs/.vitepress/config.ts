@@ -23,6 +23,17 @@ export default defineConfig({
           ],
         },
         {
+          text: "js & ts & 博客", // 分组标题
+          collapsible: true, // 可折叠
+          items: [
+            { text: "js", link: "/reference/js" },
+            { text: "ts", link: "/reference/ts" },
+            { text: "vue", link: "/reference/vue" },
+            { text: "css", link: "/reference/css" },
+            { text: "博客", link: "/reference/bk" },
+          ],
+        },
+        {
           text: "网络工具", // 分组标题
           collapsible: true, // 可折叠
           items: [
@@ -45,17 +56,6 @@ export default defineConfig({
               text: "风鸟-企查查",
               link: "https://riskbird.com/?inviteCode=82AE24F9CDA1C3C8",
             },
-          ],
-        },
-        {
-          text: "js & ts & 博客", // 分组标题
-          collapsible: true, // 可折叠
-          items: [
-            { text: "js", link: "/reference/js" },
-            { text: "ts", link: "/reference/ts" },
-            { text: "vue", link: "/reference/vue" },
-            { text: "css", link: "/reference/css" },
-            { text: "博客", link: "/reference/bk" },
           ],
         },
         {
