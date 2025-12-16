@@ -12,3 +12,4 @@
 | uiverse           | https://uiverse.io/spotlight                    | 一个 ui 样式库                   |
 | Vue-Office        | https://uiverse.io/spotlight                    | 实现 Word/Excel/PPT/PDF 在线预览 |
 | vue3-emoji-picker | https://www.npmjs.com/package/vue3-emoji-picker | 表情包                           |
+| Pixelium Design   | https://shika-works.github.io/pixelium-design   | 像素风 UI 组件库                 |
